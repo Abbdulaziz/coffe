@@ -1,0 +1,73 @@
+.number {
+
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+
+        &__card {
+            position: relative;
+
+            &:before {
+                content: "";
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                display: block;
+                position: absolute;
+                background: #FEFCF7;
+                border: 2px solid #0E8784;
+                top: -15px;
+            }
+
+            .nember_box {
+                padding-right: 90px;
+
+                h2 {
+                    font-weight: 900;
+                    font-size: 72px;
+                    line-height: 72px;
+                    color: #FDD6BA;
+                    margin: 30px 0;
+                }
+
+                h3 {
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 36px;
+                    margin-bottom: 20px;
+                    color: #333D4B;
+                }
+
+                p {
+                    line-height: 26px;
+                    color: #333D4B;
+                }
+            }
+
+        }
+
+
+        .n-bor {
+            border-top: 2px solid #FDD6BA;
+
+
+        }
+    }
+
+    .number_button {
+        background: #0e8784;
+        border-radius: 6px;
+        padding: 15px 30px;
+        cursor: pointer;
+        margin-top: 25px;
+        color: #fefcf7;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        border: #0E8784;
+        margin-bottom: 130px;
+    }
+}

@@ -1,0 +1,60 @@
+.choose_box {
+    background-color: $darkblue;
+    color: #FEFCF7;
+    border-radius: 5px;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    margin-top: 150px;
+
+    p {
+        max-width: 500px;
+        line-height: 26px;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+    }
+}
+
+.choose_wraper {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    top: -150px;
+
+    .choose_card {
+        width: 350px;
+        height: 390px;
+        background: #0E8784;
+        border-radius: 8px;
+        text-align: center;
+        color: #FEFCF7;
+        padding: 45px;
+
+        &:hover{
+            background: #FDD6BA;
+        }
+        &:active{
+            background: #F4F1EB;
+        }
+
+        .choose_card__img{
+            margin: 25px 0;
+        }
+
+        .choose__card__title{
+            h3{
+                margin: 45px 0;
+            }
+            p{
+                line-height: 26px;
+            }
+        }
+    }
+}

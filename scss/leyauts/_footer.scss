@@ -1,0 +1,40 @@
+footer {
+    background: $darkblue;
+
+    .footer {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+
+        &__logo img {
+            width: 240px;
+        }
+
+        &__ul {
+            display: flex;
+            width: 20%;
+            align-items: center;
+            list-style-type: none;
+            justify-content: space-between;
+
+            &__li {
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                text-transform: uppercase;
+
+                a {
+                    color: #83888F;
+                    text-decoration: none;
+                }
+            }
+        }
+        &__icon{
+            display: flex;
+            justify-content: space-between;
+            width: 8%;
+        }
+    }
+}

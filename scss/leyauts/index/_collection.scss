@@ -1,0 +1,116 @@
+
+
+
+.collection{
+    background-image: url(../../../img/Group13.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    background-size: contain;
+    .collect__wrapper{
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+        padding-top: 350px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .collect__card{
+            width: 25%;
+            text-align: center;
+            color: #333D4B;
+            .collect__card__img img{
+                width: 250px;
+                height: 200px;
+            }
+
+            .collect-h3{
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+
+// =================================R-W-B==================================
+@media screen and (max-width: 1024px){
+    
+.collection{
+    background-image: url(../../../img/Group13.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    background-size: contain;
+    .collect__wrapper{
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+        padding-top: 350px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        // background: #000;
+
+        .collect__card{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            color: #333D4B;
+            text-align: start;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            .collect__card__img img{
+                width: 250px;
+                height: 200px;
+            }
+
+            .collect-h3{
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+}
+
+
+// =================================R-W-B==================================
+@media screen and (max-width: 768px){
+    
+    .collection{
+        background-image: url(../../../img/Group13.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 50px;
+        background-size: contain;
+        .collect__wrapper{
+            display: flex;
+            width: 100%;
+            max-width: 100%;
+            align-items: center;
+            padding-top: 350px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            // background: #000;
+    
+            .collect__card{
+                width: 100%;
+                text-align: center;
+                color: #333D4B;
+    
+                .collect__card__img img{
+                    width: 250px;
+                    height: 200px;
+                }
+    
+                .collect-h3{
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    }

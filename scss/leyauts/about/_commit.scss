@@ -1,0 +1,60 @@
+.commit{
+    margin: 50px 20px;
+
+    &__wrapper{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        &__img{
+            img{
+                border-radius: 5px;
+                width: 350px;
+                height: 380px;
+            }
+        }
+        &__title{
+            padding: 25px;
+            width: 50%;
+
+            h2{
+                margin-bottom: 15px;
+            }
+        }
+
+    }
+}
+
+
+// =================================R-W-B==================================
+@media screen and (max-width: 768px){
+    .commit{
+        margin: 50px 20px;
+    
+        &__wrapper{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            &__img{
+                img{
+                    border-radius: 5px;
+                    width: 350px;
+                    height: 380px;
+                }
+            }
+            &__title{
+                width: 100%;
+                text-align: center;
+
+
+                h2{
+                    font-size: 28px;
+                }
+            }
+    
+        }
+    }
+}

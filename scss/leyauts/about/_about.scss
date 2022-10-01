@@ -1,0 +1,62 @@
+.about {
+    background-image: url(../../../img/Group\ 7.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 80px;
+    color: $lightcream;
+
+    &__wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        &__title {
+            width: 40%;
+
+            p {
+                margin-top: 20px;
+                font-size: 16px;
+                line-height: 26px;
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .about {
+        background-image: url(../../../img/Group\ 7.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 100px 40px;
+        color: $lightcream;
+    
+        &__wrapper {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            text-align: center;
+    
+            &__title {
+                width: 100%;
+    
+                p {
+                    margin-top: 20px;
+                    font-size: 16px;
+                    line-height: 25px;
+                }
+
+                h2{
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+    
+}

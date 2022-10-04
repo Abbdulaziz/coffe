@@ -14,7 +14,7 @@ footer {
 
         &__ul {
             display: flex;
-            width: 20%;
+            width: 33%;
             align-items: center;
             list-style-type: none;
             justify-content: space-between;
@@ -34,7 +34,56 @@ footer {
         &__icon{
             display: flex;
             justify-content: space-between;
-            width: 8%;
+            width: 15%;
         }
     }
+}
+
+
+// =================================R-W-B==================================
+@media screen and (max-width: 768px){
+    footer {
+        background: $darkblue;
+    
+        .footer {
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            height: 130px;
+            flex-wrap: wrap;
+    
+            &__logo img {
+                width: 240px;
+            }
+    
+            &__ul {
+                display: flex;
+                width: 80%;
+                align-items: center;
+                list-style-type: none;
+                justify-content: space-between;
+                margin: 15px 0;
+    
+                &__li {
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-transform: uppercase;
+    
+                    a {
+                        color: #83888F;
+                        text-decoration: none;
+                    }
+                }
+            }
+            &__icon{
+                display: flex;
+                justify-content: space-between;
+                width: 50%;
+            }
+        }
+    }
+    
 }

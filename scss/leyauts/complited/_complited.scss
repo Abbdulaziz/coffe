@@ -1,0 +1,46 @@
+.complited{
+    background: url(../../../img/Bitmap-3.png);
+    height: 450px;
+    color: #fff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    
+    &__box{
+        width: 50%;
+
+        h1{
+            font-size: 72px;
+        }
+        p{
+            opacity: 0.8;
+            width: 70%;
+        }
+    }
+    
+}
+
+
+// =================================R-W-B==================================
+@media screen and (max-width: 768px){
+    .complited{
+        height: 400px;
+    }
+    .complited__box{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center
+        p{
+            width: 100%;
+        }
+
+    }
+}

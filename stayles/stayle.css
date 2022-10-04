@@ -1029,6 +1029,32 @@ body {
     font-size: 28px;
   }
 }
+.toranto .ourh {
+  margin: 25px 0;
+  color: #83888F;
+}
+.toranto__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.toranto__wrapper__card {
+  height: 250px;
+  width: 310px;
+}
+.toranto__wrapper__card h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.toranto__wrapper__card p {
+  padding-right: 60px;
+}
+
 .complited {
   background: url(../../../img/Bitmap-3.png);
   height: 450px;
@@ -1079,13 +1105,13 @@ body {
     align-content-width: 100%;
   }
 }
-.commit {
+.commitedd {
   background: #293039;
   padding: 85px;
   margin: 0;
   border-radius: 15px;
 }
-.commit .commit_color {
+.commitedd .commit_color {
   color: aliceblue !important;
 }
 
